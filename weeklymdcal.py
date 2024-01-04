@@ -12,10 +12,10 @@ def create_week(start, end, month, year, team_members):
         mdstr += str(i) + '/' + str(month) + '/' + str(year) + '\n\n'
 
         mdstr += '|' + '|'.join(colnames) + '|' + '\n'
-        mdstr += '|' + '|'.join([':-:' for _ in range(len(colnames))]) + '|' + '\n'
+        mdstr += '|' + '|'.join([':-:\t' for _ in range(len(colnames))]) + '|' + '\n'
         
         for member in team_members:
-            mdstr += '|' + member + '|' + '|'.join(['' for _ in range(len(colnames))]) + '|' + '\n'
+            mdstr += '|' + member + '|' + '|'.join(['\t' for _ in range(len(colnames))]) + '\n'
 
         mdstr += '\n'
     return mdstr
