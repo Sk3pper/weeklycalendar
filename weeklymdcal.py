@@ -27,7 +27,7 @@ def create_calendar(month, year, team_members, nweek):
 
     weeks = cal.monthdays2calendar(year, month)
     if nweek != 0:
-        weeks = [weeks[nweek]]
+        weeks = [weeks[nweek-1]]
     
     for week in weeks:
         start, end = get_start_end(week)
