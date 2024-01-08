@@ -9,6 +9,12 @@ Generate weekly calendar of current month (excluding saturday and sunday days) i
 Change the name of the members at line 61
 ``` team_members = ["Member1", "Member2", "Member3"] ```
 
+Usage
+```sh
+$ python weeklycal.py [month] [year] [format]
+```
+
+
 ```sh
 $ python weeklycal.py 1 2024 html
 ```
