@@ -26,6 +26,7 @@ $ python weeklycal.py 1 2024 md
 ![alt text](https://github.com/Sk3pper/weeklymdcal/blob/main/images/md_example.png?raw=true)
 
 ## Download, modify and run it
+
 1. For both Linux and Windows
     ```sh
     curl -sL "https://raw.githubusercontent.com/Sk3pper/weeklycalendar/main/weeklycal.py" -O
