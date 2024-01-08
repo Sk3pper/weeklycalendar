@@ -17,13 +17,13 @@ $ python weeklycal.py [month] [year] [format]
 ```sh
 $ python weeklycal.py 1 2024 html
 ```
-![alt text](https://github.com/Sk3pper/weeklymdcal/blob/main/images/html_example.png?raw=true)
+![alt text](https://github.com/Sk3pper/weeklymdcal/blob/main/images/html.png?raw=true)
 
 
 ```sh
 $ python weeklycal.py 1 2024 md  
 ```
-![alt text](https://github.com/Sk3pper/weeklymdcal/blob/main/images/md_example.png?raw=true)
+![alt text](https://github.com/Sk3pper/weeklymdcal/blob/main/images/md.png?raw=true)
 
 ## Download, modify and run it
 
