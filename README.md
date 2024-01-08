@@ -1,6 +1,6 @@
 # weeklycalendar
 
-Generate weekly calendar in Markdown table. Written in Python3.
+Generate weekly calendar in Markdown and HTML table. Written in Python3.
 
 ## Usage
 
