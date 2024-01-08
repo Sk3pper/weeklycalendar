@@ -120,7 +120,6 @@ def create_calendar(month, year, team_members, output='html'):
 def print_calendar(month, year, team_members, output='html'):
     to_print = create_calendar(month, year, team_members, output=output)
 
-    # write out to file
     if output == "md":
         # write file md
         write_to_file(to_print, "md")
