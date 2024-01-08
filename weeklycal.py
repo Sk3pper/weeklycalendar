@@ -105,6 +105,9 @@ def create_calendar(month, year, team_members, output='html'):
 
     for week in weeks:
         start, end = get_start_end(week)
+
+        if start == 0 and end ==0:
+            continue
         if output == "md":
             out += create_week_md(start, end, month, year, team_members)
         elif output == 'html':
