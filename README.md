@@ -1,4 +1,4 @@
-# weeklymdcal
+# weeklycalendar
 
 Generate weekly calendar in Markdown table. Written in Python3.
 
@@ -12,10 +12,10 @@ Change the name of the members at line 61
 ```sh
 $ python weeklycal.py 1 2024 html
 ```
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![alt text](https://github.com/Sk3pper/weeklymdcal/blob/main/images/html_example.png?raw=true)
 
 
 ```sh
 $ python weeklycal.py 1 2024 md  
 ```
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![alt text](https://github.com/Sk3pper/weeklymdcal/blob/main/images/md_example.png?raw=true)
