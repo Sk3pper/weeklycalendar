@@ -25,8 +25,18 @@ $ python weeklycal.py 1 2024 md
 ```
 ![alt text](https://github.com/Sk3pper/weeklymdcal/blob/main/images/md_example.png?raw=true)
 
-## Run without download the file
-For both Linux and Windows
-```sh
-curl -sL "https://raw.githubusercontent.com/Sk3pper/weeklycalendar/main/weeklycal.py" | python3 - 1 2024 html
-```
+## Download, modify and run it
+1. For both Linux and Windows
+    ```sh
+    curl -sL "https://raw.githubusercontent.com/Sk3pper/weeklycalendar/main/weeklycal.py" -O
+    ```
+
+2. Change the name of the members at line 61
+    ``` team_members = ["Member1", "Member2", "Member3"] ```
+
+3. Run it
+    ```sh
+    python weeklycal.py 1 2024 html
+    ```
+
+4. Open the weeklycalendar.html or weeklycalendar.md file

@@ -8,12 +8,12 @@ def get_start_end(week):
     start = week[0][0]
     end = week[0][0]
     for day in week:
-        # if weekday number is 6 or 7 (saturday or sunday)
+        # if weekday number is 5 or 6 (saturday or sunday)
         # or is outside of the current month => continue
         if day[1] > 4 or day[0] == 0:
             continue
 
-        if day[0] < start:
+        if day[0] < start or start == 0:
             start = day[0]
         
         if day[0] > end:
@@ -133,9 +133,11 @@ if __name__ == "__main__":
     argv = sys.argv
     team_members = ["Member1", "Member2", "Member3"]
     
-    if len(argv) == 4:
-        month, year = [int(a) for a in argv[1:3]]
-        output = argv[3]
-        print_calendar(month, year, team_members, output)
-    else:
-        print('Usage: python mdcal.py [month] [year] [html|md]')
+    # if len(argv) == 4:
+    #     month, year = [int(a) for a in argv[1:3]]
+    #     output = argv[3]
+    #     print_calendar(month, year, team_members, output)
+    # else:
+    #     print('Usage: python mdcal.py [month] [year] [html|md]')
+
+    print_calendar(2, 2024, team_members, 'html')
