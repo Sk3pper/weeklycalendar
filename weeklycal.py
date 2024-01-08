@@ -133,11 +133,9 @@ if __name__ == "__main__":
     argv = sys.argv
     team_members = ["Member1", "Member2", "Member3"]
     
-    # if len(argv) == 4:
-    #     month, year = [int(a) for a in argv[1:3]]
-    #     output = argv[3]
-    #     print_calendar(month, year, team_members, output)
-    # else:
-    #     print('Usage: python mdcal.py [month] [year] [html|md]')
-
-    print_calendar(2, 2024, team_members, 'html')
+    if len(argv) == 4:
+        month, year = [int(a) for a in argv[1:3]]
+        output = argv[3]
+        print_calendar(month, year, team_members, output)
+    else:
+        print('Usage: python mdcal.py [month] [year] [html|md]')
